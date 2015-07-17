@@ -57,7 +57,8 @@ public class MainActivity extends ActionBarActivity {
             return rootView;
         }
     }
-
+    // Due to lack of experience with Android apps I referred previous work from a github repo
+    // https://github.com/Andrewpk/Android-Nanodegree-Project-0/blob/master/app/src/main/java/com/dudid/myappportfolio/MainActivity.java
     public void displayToast(View view) {
         Button button = (Button) view;
         String buttonText = button.getText().toString();
